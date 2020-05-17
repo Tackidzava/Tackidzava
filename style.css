@@ -1,0 +1,153 @@
+﻿body{background-color: #D2691E;
+    color:black; 
+}
+*{margin: 0; padding: 0
+}
+nav ol{float: left; 
+       margin-top: 20px; 
+       font-size: 170%;
+       width: 100%;
+       overflow-y: auto
+      
+}
+nav ol li{
+}
+#log{font-size: 30px;
+    text-align: center; 
+    font-family: Segoe Print;
+    color: green;
+}
+nav ol li a{margin-left: 7% ;
+          width: 170px;
+          display: table;
+          margin-top:20%;
+          text-align: center;
+          text-decoration: none;
+          border-spacing: 10px;color: green;
+}
+#head{height:100%; 
+       background-color:Black;
+       font-family:Impact;
+        width: 200px;
+       float: left;
+        position: fixed;
+        display: block;
+        overflow:auto
+}
+nav ol li a:hover{border: 2px solid brown;
+                color:red ;
+}
+.st{margin-left: 240px;
+    margin-right: 40px
+}
+.zag{text-align: center;
+     font-size: 50px;
+     font-family:fantasy;
+     color:#FFA500
+}
+.info{ text-indent: 20px;
+  text-align: justify;
+  width: 100%;
+  margin-top: 5px;
+  font-family: impact;
+  font-size: 20px;
+}
+#img1{ margin-left: 10px; float: right;width:400px; height:450px;}
+#img2{margin-right: 10px; float:left; margin-top: 40px; height: 450px}
+#img3{ margin-left: 10px; float: right;width: 500px;}
+#img4{margin-right: 10px; float:left; width: 500px}
+#img5{ margin-left: 10px; float: right; height: 500px}
+#img6{margin-right: 10px; float:left; width: 300px}
+#foot{height: 100px; 
+    background-color: darkorange;margin-left: 12% }
+.ft{font-family: times new roman; font-size: 15px; margin-left: 300px; color: white; text-align: justify;
+  letter-spacing: 1px;  
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  text-align: center
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color:#0D0D0D;
+  font-family: Impact;
+  padding: 2px 16px;
+  color: brown;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
